@@ -1,18 +1,39 @@
-# AI Health Symptom Checker & Appointment System
+AI-Based Health Symptom Checker and Appointment System
 
-An AI-powered healthcare assistant that predicts diseases from symptoms and allows appointment booking.
+An AI-based healthcare application that allows users to enter their symptoms, receive a predicted health condition with a confidence score, get doctor recommendations, and book appointments through an integrated system.
 
-## Features
-- Disease Prediction using ML
-- Top-3 Disease Suggestions
-- Appointment Booking
-- SQLite Database
-- Appointment History
-- Streamlit UI
+✨ Features
 
-## Technologies Used
+- 🤖 AI-based symptom analysis
+- 🩺 Possible condition prediction
+- 📊 Confidence score for predictions
+- 👨‍⚕️ Doctor recommendations
+- 📅 Appointment booking
+- 🔗 REST API integration
+- 🖥️ User-friendly interface
+
+🛠️ Technologies Used
+
 - Python
 - Streamlit
-- Scikit-learn
-- SQLite
-- Pandas
+- Flask
+- REST API
+- Machine Learning
+- JSON
+
+🔄 How It Works
+
+1. User enters symptoms through the Streamlit interface.
+2. The symptoms are sent to the Flask REST API.
+3. The ML model analyzes the symptoms and predicts a possible condition.
+4. The API returns the prediction and confidence score.
+5. Doctor recommendations are provided based on the result.
+6. Users can book an appointment through the system.
+
+🎯 Objective
+
+The objective of this project is to provide an easy-to-use AI-assisted platform for preliminary symptom analysis and doctor appointment management while reducing manual effort and improving accessibility.
+
+⚠️ Disclaimer
+
+This application is intended for educational and informational purposes only. It is not a substitute for professional medical diagnosis or treatment.
